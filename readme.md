@@ -1,6 +1,6 @@
 
 # first init
 
-will put my program here till my COSMOS weapon finished.
+will put my program here when my COSMOS weapon finished.
 
 peace 
