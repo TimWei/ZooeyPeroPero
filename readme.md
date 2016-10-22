@@ -1,6 +1,6 @@
 ### 從零開始的舔丁生活
 # ☆㊣ ↙煞氣a維基小黑窗㊣☆  
- >使用說明及安裝方法於本文末
+ > 發佈下載網址與開發版安裝方法於文末
  
 <br />
 
@@ -22,7 +22,11 @@
 </br>
 
 ---
-### 安裝與操作簡介
+### 發佈連結
+[發佈版0.0.7](https://github.com/TimWei/ZooeyPeroPero/archive/release.zip)
+
+---
+### 開發版安裝與操作簡介
 本軟件需安裝Ruby及相關套件，請先至 [此站](http://railsinstaller.org/en) 下載所使用作業系統的一鍵安裝包
 
 ##### Windows:
