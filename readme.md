@@ -1,8 +1,37 @@
+### 從零開始的舔丁生活
+# ☆㊣ ↙煞氣a維基小黑窗㊣☆  
+ >使用說明及安裝方法於本文末
+ 
+<br />
 
-# first init
+---
+### 功能:
+* 解析[通常マルチバトル救援募集板](http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%B5%DF%B1%E7%CA%E7%BD%B8%C8%C4)下方的共鬥資訊
+* 搜尋成功時自動複製ID
+* 搜尋成功時提示音 (香菜我老婆)
 
-will put my program here when my COSMOS weapon finished.
+<br />
 
-peace 
+ ---
+### 哪些人適合使用?
+* <del>七銃風流氓</del>
+* <del>七銃風流氓</del>
+* <del>更多七銃風流氓</del>
+* 懶得F5刷新WIKI的農夫
 
+</br>
+
+---
+### 安裝與操作簡介
+本軟件需安裝Ruby及相關套件，請先至 [此站](http://railsinstaller.org/en) 下載所使用作業系統的一鍵安裝包
+
+##### Windows:
+1. 安裝完Ruby環境一鍵安裝包後，從 [此連接](https://github.com//TimWei/ZooeyPeroPero/archive/master.zip) 下載小黑窗的發佈版本
+2. 解壓縮後，點擊資料夾內的init.bat初始化軟件
+3. 初始化結束後，即可點選start.bat開始使用
+4. 需結束時，請同時按住 Ctrl鍵 + C鍵
+
+</br>
+---
+#效果:
 <img src='http://i.imgur.com/of3dCHw.jpg'/>
