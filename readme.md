@@ -27,7 +27,7 @@
 
 ##### Windows:
 1. 安裝完Ruby環境一鍵安裝包後，從 [此連接](https://github.com//TimWei/ZooeyPeroPero/archive/master.zip) 下載小黑窗的發佈版本
-2. 解壓縮後，點擊資料夾內的init.bat初始化軟件
+2. 解壓縮後，點擊資料夾內的init.bat做初始化
 3. 初始化結束後，即可點選start.bat開始使用
 4. 需結束時，請同時按住 Ctrl鍵 + C鍵
 
