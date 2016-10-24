@@ -1,0 +1,7 @@
+
+0.0.8 
+	-add ocra
+	-add error log
+
+0.0.9 
+	-add change log 
