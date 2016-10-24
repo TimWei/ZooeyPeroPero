@@ -1,7 +1,7 @@
-
-0.0.8 
+v0.1.0
+	- add change log
+v0.0.9 
 	-add ocra
+v0.0.8 
 	-add error log
 
-0.0.9 
-	-add change log 
