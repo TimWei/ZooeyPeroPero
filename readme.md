@@ -27,7 +27,7 @@
 
 ---
 ### 開發版安裝與操作簡介
-本軟件需安裝Ruby及相關套件，請先至 [此站](http://railsinstaller.org/en) 下載所使用作業系統的一鍵安裝包
+開發版需安裝Ruby及相關套件，請先至 [此站](http://railsinstaller.org/en) 下載所使用作業系統的一鍵安裝包
 
 ##### Windows:
 1. 安裝完Ruby環境一鍵安裝包後，從 [此連接](https://github.com//TimWei/ZooeyPeroPero/archive/master.zip) 下載小黑窗的發佈版本
