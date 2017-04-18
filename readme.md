@@ -3,12 +3,15 @@
  > 發佈下載網址與開發版安裝方法於文末
  
 <br />
+##### 已更新3月底的WIKI更新
+
+<br />
 
 ---
 ### 功能:
-* 解析[通常マルチバトル救援募集板](http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%B5%DF%B1%E7%CA%E7%BD%B8%C8%C4)下方的共鬥資訊
+* 解析[通常マルチバトル救援募集板](http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%CA%E7%BD%B8%C8%C4%2F%B5%DF%B1%E7ID%CA%E7%BD%B8)下方的共鬥資訊
 * 搜尋成功時<strong>自動複製ID</strong>
-* 搜尋成功時提示音 (香菜我老婆)
+* 搜尋成功時提示音 
 
 <br />
 

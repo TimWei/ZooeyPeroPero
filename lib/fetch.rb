@@ -1,13 +1,20 @@
 require 'openssl'
+require 'json'
 require 'open-uri'
 require 'nokogiri'
 
 class Fetch
-	WIKI_URL = 'http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%B5%DF%B1%E7%CA%E7%BD%B8%C8%C4'
-	TARS = ['グランデ', 'バハ','よわばは','よわバハ','団グランデ','ランデ']
+	WIKI_URL = 'http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%CA%E7%BD%B8%C8%C4%2F%B5%DF%B1%E7ID%CA%E7%BD%B8'
+	TARS = ['黒麒麟','グランデ', 'バハ','よわばは','よわバハ','団グランデ','ランデ']
 
 	def initialize
 		@buffer ||= []
+		config_file =  File.read 'lib/config.json', external_encoding: 'utf-8'
+		config = JSON.parse config_file
+
+		@wiki_url = config['wiki_url']
+		@tars = config['targets']
+
 		get_data.each{|t| @buffer << t}
 		Encoding.default_external = 'utf-8'
 	end
@@ -20,7 +27,7 @@ class Fetch
 
 	private
 	def get_data
-		doc = Nokogiri::HTML(open(WIKI_URL, ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE))
+		doc = Nokogiri::HTML(open(@wiki_url, ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE))
 		rows = doc.xpath("//li[@class='pcmt']")
 		result = []
 		rows.each do |row|
@@ -28,7 +35,7 @@ class Fetch
 			data_name = data[0]
 			data_id = data[1]
 			data_timestamp = data[-2]
-			result << [data_name,data_id,data_timestamp] if TARS.include?(data_name)
+			result << [data_name,data_id,data_timestamp] if @tars.include?(data_name)
 		end
 		return result
 	end
