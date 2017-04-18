@@ -25,11 +25,15 @@
 </br>
 
 ---
-### 發佈連結
-[發佈版0.0.7](https://github.com/TimWei/ZooeyPeroPero/archive/release.zip)
+
+
+### 發佈版
+
+<del>下載連接</del><b>新的發佈版本尚在建立，僅開發板能使用</b>
 
 ---
-### 開發版安裝與操作簡介
+### 開發版
+#####安裝與操作簡介
 開發版需安裝Ruby及相關套件，請先至 [此站](http://railsinstaller.org/en) 下載所使用作業系統的一鍵安裝包
 
 ##### Windows:
@@ -38,7 +42,3 @@
 3. 初始化結束後，即可點選start.bat開始使用
 4. 需結束時，請同時按住 Ctrl鍵 + C鍵
 
-</br>
----
-#效果:
-<img src='http://i.imgur.com/of3dCHw.jpg'/>
