@@ -4,9 +4,7 @@ require 'open-uri'
 require 'nokogiri'
 
 class Fetch
-	WIKI_URL = 'http://gbf-wiki.com/index.php?%C4%CC%BE%EF%A5%DE%A5%EB%A5%C1%A5%D0%A5%C8%A5%EB%CA%E7%BD%B8%C8%C4%2F%B5%DF%B1%E7ID%CA%E7%BD%B8'
-	TARS = ['黒麒麟','グランデ', 'バハ','よわばは','よわバハ','団グランデ','ランデ']
-
+	
 	def initialize
 		@buffer ||= []
 		config_file =  File.read 'lib/config.json', external_encoding: 'utf-8'
